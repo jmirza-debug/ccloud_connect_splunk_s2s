@@ -11,7 +11,7 @@ To get started:
 4. docker-compose up -d
 ```
 
-This repo includes a neo4j source connector, and snowflake sink connector. Fill in connectivity details in:
+This repo includes a Oracle CDC source connector, and snowflake sink connector. Fill in connectivity details in:
 ```
 -submit_oracle_cdc.sh
 ```
