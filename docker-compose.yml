@@ -5,6 +5,7 @@ services:
     image: confluentinc/cp-kafka-connect:latest
     hostname: $CONTAINER_NAME
     container_name: $CONTAINER_NAME
+    user: root
     volumes: 
       - ./files/:/tmp/
     ports:
